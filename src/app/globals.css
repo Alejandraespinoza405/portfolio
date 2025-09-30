@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* ===== Utilidad para títulos con Anton ===== */
+@utility font-display {
+  font-family: var(--font-display);
+}
+
+/* Opcional: utilidades rápidas si querés forzar sans/mono en algún bloque */
+@utility font-sans-app {
+  font-family: var(--font-geist-sans);
+}
+@utility font-mono-app {
+  font-family: var(--font-geist-mono);
+}
+
+/* === Tokens (Tailwind v4) === */
+@theme {
+  --color-primary: #1b4332;   /* Verde oscuro */
+  --color-secondary: #6a0dad; /* Violeta     */
+}
+
+/* (Podés dejar lo demás igual) */
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
