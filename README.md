@@ -1,3 +1,43 @@
+ 🌐 Portfolio - Cecilia Alejandra Espinoza
+
+Bienvenido a mi portfolio personal, un espacio donde muestro mis proyectos, habilidades y experiencia como **Frontend Developer**.  
+Construido con tecnologías modernas para transmitir mi estilo y marca personal.
+
+## 🚀 Tecnologías utilizadas
+- [Next.js](https://nextjs.org/) 15
+- [React](https://react.dev/) 18
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## ✨ Características
+- Diseño responsive y moderno 📱💻
+- Secciones de **Proyectos, Tecnologías, Sobre mí y Contacto**
+- Integración con **GitHub, LinkedIn y Email**
+- Despliegue en **Vercel**
+
+## 📸 Vista previa
+![Portfolio Preview](./public/images/portfolio-preview.png)  
+
+## 📂 Estructura del proyecto
+src/
+├── app/ # Páginas principales con Next.js
+├── components/ # Componentes reutilizables (Header, About, Projects, Contact, etc.)
+├── data/ # Datos de proyectos y skills
+└── public/images/ # Imágenes de los proyectos
+
+## 🔗 Enlaces
+- 🌍 [Demo en Vercel](https://portfolio.vercel.app)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/alejandraespinoza405/)  
+- 🐙 [GitHub](https://github.com/Alejandraespinoza405)  
+
+## 📧 Contacto
+Si te interesa colaborar o ver más de mi trabajo, podés escribirme a:  
+**alejandra2025espinoza@gmail.com**
+
+---
+
+👩‍💻 Desarrollado por **Cecilia Alejandra Espinoza** | Frontend Developer
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
