@@ -7,7 +7,7 @@ const skills = [
 export function Skills() {
   return (
     <section aria-labelledby="skills-title" className="w-full">
-      <div className="px-4 sm:px-6 lg:px-10 xl:px-16 py-16 bg-[#E8DEFc]">
+      <div className="px-4 sm:px-6 lg:px-10 xl:px-16 py-16 bg-[#E8DEFc] dark:bg-neutral-900">
         {/* Título + subrayado */}
         <h2 id="skills-title" className="font-display text-[42px] leading-none">
           TECNOLOGÍAS
@@ -19,7 +19,7 @@ export function Skills() {
           {skills.map((s) => (
             <li
               key={s}
-              className="border border-neutral-300 bg-white px-4 py-3 rounded-none text-[15px] text-neutral-800"
+              className="border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 px-4 py-3 rounded-none text-[15px] text-neutral-800 dark:text-neutral-100"
             >
               {s}
             </li>

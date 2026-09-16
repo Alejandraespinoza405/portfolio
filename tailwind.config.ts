@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "class", // ⬅️ ACTÍVALO
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,8 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "var(--color-primary)",   // Verde oscuro
-        secondary: "var(--color-secondary)"// Violeta
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
@@ -23,3 +24,4 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+
