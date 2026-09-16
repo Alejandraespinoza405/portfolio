@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export function About() {
   return (
-    <section aria-labelledby="about-title" className="w-full bg-[#E8DEFc]">
+    <section
+  aria-labelledby="about-title"
+  className="w-full bg-[#E8DEFc] dark:bg-neutral-900"
+>
       {/* padding lateral y vertical, sin max-width para full-bleed */}
       <div className="px-4 sm:px-6 lg:px-10 xl:px-16 py-16">
         {/* Título */}
@@ -16,7 +19,7 @@ export function About() {
         <div className="mt-10 grid gap-10 lg:grid-cols-12 items-center">
           {/* Foto */}
           <div className="lg:col-span-4">
-            <div className="bg-white shadow-[0_8px_24px_rgba(0,0,0,0.08)] p-0 rounded-none">
+            <div className="bg-white dark:bg-neutral-800 shadow-[0_8px_24px_rgba(0,0,0,0.08)] p-0 rounded-none">
               <Image
                 src="/images/cecilia.jpg"    // <-- cambiá por tu archivo
                 alt="Cecilia Alejandra Espinoza"
@@ -29,14 +32,14 @@ export function About() {
           </div>
 
           {/* Texto */}
-          <div className="lg:col-span-8 text-neutral-900">
+          <div className="lg:col-span-8 text-neutral-900 dark:text-neutral-100">
             <p className="text-[17px] leading-7">
   Empecé en el desarrollo web porque me atraía la parte visual: cómo un buen diseño puede
   transformar la experiencia de una persona. Con el tiempo descubrí que también disfruto la
   lógica y la organización que hay detrás del código.
 </p>
 
-<p className="mt-6 text-[15px] leading-7 text-neutral-800">
+<p className="mt-6 text-[15px] leading-7 text-neutral-800 dark:text-neutral-300">
   Hoy me enfoco en frontend con React, Next.js, TypeScript y Tailwind, donde puedo combinar
   estética con funcionalidad. Me caracterizo por la constancia, la atención al detalle y por
   trabajar en equipo para llevar cada idea a una interfaz clara, moderna y accesible.
@@ -45,7 +48,7 @@ export function About() {
 
             {/* CTA opcional */}
             <div className="mt-8">
-              <p className="mt-6 text-[15px] leading-7 text-neutral-800">
+              <p className="mt-6 text-[15px] leading-7 text-neutral-800 dark:text-neutral-300">
   Si te interesa trabajar conmigo, hablemos.
 </p>
             </div>

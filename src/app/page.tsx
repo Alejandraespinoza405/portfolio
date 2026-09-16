@@ -12,17 +12,17 @@ export default function HomePage() {
       <Header />
 
       {/* PROYECTOS – banda violeta claro, full bleed */}
-      <FullWidthSection id="projects" className="py-14 bg-[#E8DEFc]">
+      <FullWidthSection id="projects" className="py-14 bg-[#E8DEFc] dark:bg-[#211A2F]">
         <Projects />
       </FullWidthSection>
 
       {/* ACERCA DE MÍ – fondo gris muy claro, full bleed */}
-      <FullWidthSection id="about" className="py-14 bg-neutral-100">
+      <FullWidthSection id="about" className="py-14 bg-neutral-100 dark:bg-[#171321]">
         <About />
       </FullWidthSection>
 
       {/* TECNOLOGÍAS – otra banda, full bleed */}
-      <FullWidthSection id="skills" className="py-14 bg-[#E8DEFc]">
+      <FullWidthSection id="skills" className="py-14 bg-[#E8DEFc] dark:bg-[#211A2F]">
         <Skills />
       </FullWidthSection>
 

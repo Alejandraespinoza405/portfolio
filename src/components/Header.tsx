@@ -1,8 +1,9 @@
+import { ThemeToggle } from "./Button";
 
 
 export function Header() {
   return (
-    <header className="bg-gray-900 text-white py-10">
+    <header className="bg-gray-900 text-white py-10"> 
       <div className="max-w-6xl mx-auto px-4 py-10">
         <div className="grid md:grid-cols-2 items-center gap-8">
           <div>
@@ -45,12 +46,13 @@ export function Header() {
     href="#projects"
     className="mt-5 inline-block px-5 py-3 bg-secondary text-white rounded-none hover:opacity-90 transition"
   >
-    Ver proyectos
-  </a>
+    Ver proyectos 
+  </a> <ThemeToggle />
 </div>
 
         </div>
       </div>
     </header>
+    
   );
 }

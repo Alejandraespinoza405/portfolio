@@ -29,11 +29,14 @@ export function ProjectRow({
       {/* Texto */}
       <div>
         <h3 className="font-display text-3xl md:text-4xl tracking-tight">{title}</h3>
-        <p className="mt-3 text-neutral-700 leading-relaxed">{description}</p>
+        <p className="mt-3 text-neutral-700 dark:text-neutral-300 leading-relaxed">{description}</p>
 
         <ul className="mt-4 flex flex-wrap gap-2">
           {tech.map((t) => (
-            <li key={t} className="border px-3 py-1 text-sm bg-white border-neutral-200">
+            <li
+  key={t}
+  className="border px-3 py-1 text-sm bg-white dark:bg-neutral-900 border-neutral-200 dark:border-neutral-700"
+>
               {t}
             </li>
           ))}
@@ -65,7 +68,7 @@ export function ProjectRow({
 
       {/* Imagen: esquinas rectas, sin recorte */}
       <div className="max-w-[920px] w-full mx-auto">
-        <div className="shadow-[0_12px_40px_rgba(0,0,0,0.18)] bg-white">
+        <div className="shadow-[0_12px_40px_rgba(0,0,0,0.18)] bg-white dark:bg-neutral-900">
           <Image
             src={image}
             alt={title}
